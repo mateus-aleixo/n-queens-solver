@@ -18,7 +18,7 @@ Each solution contains a distinct board configuration of the n-queens' placement
 
 6.  Enter the value of N when prompted
 
-7.  The program will display all the valid solutions for the N-Queens problem on an N×N chessboard.
+7.  The program will display all the valid solutions for the N-Queens problem on an ```N×N``` chessboard.
 
 ## How It Works
 
@@ -26,7 +26,7 @@ The program uses a backtracking algorithm to find all possible solutions. It pla
 
 ## Example Output
 
-Here's an example output for N = 4:
+Here's an example output for ```N = 4```:
 
 ```
 ---------------
@@ -41,7 +41,7 @@ Here's an example output for N = 4:
 -------------
 ```
 
-This represents the valid solutions for the N-Queens problem on a 4×4 chessboard.
+This represents the valid solutions for the N-Queens problem on a ```4×4``` chessboard.
 
 ## Constrains
 
