@@ -5,22 +5,22 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github mateus-aleixo/n-queens-solver))
 
-(authors "Author Name")
+(authors "Mateus Aleixo")
 
-(maintainers "Maintainer Name")
+(maintainers "Mateus Aleixo")
 
-(license LICENSE)
+(license MIT)
 
 (documentation https://url/to/documentation)
 
 (package
  (name nqueens)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "Solve the N-Queens problem")
+ (description "This is an OCaml program that solves the N-Queens problem. Given a value of N, the program finds all possible solutions to the problem of placing N chess queens on an N×N chessboard such that no two queens threaten each other.")
  (depends ocaml dune)
  (tags
-  (topics "to describe" your project)))
+  ("algorithms" "backtracking" "puzzle")))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
