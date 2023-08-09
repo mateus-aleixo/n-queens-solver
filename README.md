@@ -41,7 +41,7 @@ Here's an example output for ```N = 4```:
 -------------
 ```
 
-This represents the valid solutions for the N-Queens problem on a ```4×4``` chessboard.
+This represents one of the valid solutions for the N-Queens problem on a ```4×4``` chessboard.
 
 ## Constrains
 
